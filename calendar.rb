@@ -6,7 +6,6 @@ class Calendar
 	attr_accessor :all_events
 	def initialize
 		@all_events={}
-		#@all_events = Hash.new([])
 	end
 	def add_an_event(event_name, event_description, event_date)
 		return if event_name.nil? || event_name.empty? || event_date.nil?
