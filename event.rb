@@ -1,3 +1,4 @@
+
 class Event
   attr_reader :event_name, :description
 
